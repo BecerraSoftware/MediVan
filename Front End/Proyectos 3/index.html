@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIVAN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand"><span class="text-primary">Medi</span>Van</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
+                aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarS">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item"></li>
+                    <a href="#Nosotros" class="nav-link">Nosotros</a>
+                    </li>
+                    <li class="nav-item"></li>
+                    <a href="#Servicios" class="nav-link">Servicios</a>
+                    </li>
+                    <li class="nav-item"><a href="buscar_medicos.html" class="nav-link">Médicos</a></li>
+                    <li class="nav-item"></li>
+                    <a href="#Equipo" class="nav-link">Equipo</a>
+                    </li>
+                    <li class="nav-item"></li>
+                    <a href="#Contacto" class="nav-link">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#registroModal">Registro</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </nav>
+
+    <!--Div que contiene el carrusel de imagenes -->
+    <div id="carouselE" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+
+                <img src="img/Medicso grupo.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-4 fw-bold">Médicos a su Servicio</h5>
+                    <p>Nuestro propósito es ayudarte y darte nuestros mejores servicios.</p>
+                    <a href="#" class="btn btn-primary btn-sm mt-3">Más Información</a>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+
+                <img src="img/Imagen ambulancia 1.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-4 fw-bold">Médicos a su Servicio</h5>
+                    <p>Nuestro propósito es ayudarte y darte nuestros mejores servicios.</p>
+                    <a href="#" class="btn btn-primary btn-sm mt-3">Más Información</a>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselE" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselE" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <!--Seccion de quienes Quienes somos-->
+    <section id="Nosotros" class="about section-paddings">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img src="img/Medico sin fondo.png" class="img-fluid" alt="">
+                    </div>
+
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text text-black">
+                        <h2 class="fw-bold">
+                            QUIENES
+                            <br>SOMOS
+                        </h2>
+                        <P>
+                            MediVan es una empresa dedicada a brindar los mejores servicios médicos y hospitalarios a
+                            nuestros clientes. Contamos con un equipo de profesionales altamente calificados y
+                            comprometidos en nuestro trabajo. Nuestros médicos son expertos en diferentes especialidades
+                            y son atendidos con la máxima atención y confianza.
+                        </P>
+                        <a href="#" class="btn btn-primary"> Mas Información</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <br>
+    <!--Seccion de Servicios de Medivan -->
+    <section id="Servicios" class="services section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-black pb-5">
+                        <h2 class="fw-bold">SERVICIOS QUE OFRECEMOS</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium excepturi aspernatur
+                            doloribus sint?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Registro Card -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-person-plus display-4"></i>
+                            <h3 class="card-title mt-2">REGISTRO</h3>
+                            <p class="lead">Aquí podrás registrarte en nuestra página.</p>
+                            <button class="btn bg-primary text-white">Más Información</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chat Card -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-chat-left-dots display-4"></i>
+                            <h3 class="card-title mt-2">CHAT</h3>
+                            <p class="lead">Conéctate con nuestros médicos .</p>
+                            <!-- Cambiamos el botón a un enlace de anclaje -->
+                            <a href="#Medicos" class="btn bg-primary text-white">Mas Información</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Médicos Card -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-clipboard-heart-fill display-4"></i>
+                            <h3 class="card-title mt-2">MÉDICOS</h3>
+                            <p class="lead">Aquí encontrarás a los mejores médicos.</p>
+                            <button class="btn bg-primary text-white">Más Información</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section id="Medicos" class="portafolio section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-black pb-5">
+                        <h2 class="fw-bold">MÉDICOS</h2>
+                        <p>Encuentra a nuestros médicos especializados y empieza una conversación con ellos.</p>
+                    </div>
+                </div>
+            </div>
+            <!--Tarjetas de los medicos -->
+            <div class="row">
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <div class="img-area mb-4">
+                                <img src="img/Doctor_1.jpg" class="img-fluid" alt="Doctor Juan Perez">
+                            </div>
+                            <h3>Dr. Juan Perez</h3>
+                            <p class="lead">Especialista en Cardiología</p>
+                            <button class="btn bg-primary text-white" data-bs-toggle="modal" data-bs-target="#chatModal"
+                                onclick="openChat('Dr. Juan Perez')">Iniciar Chat</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <div class="img-area mb-4">
+                                <img src="img/Doctor_2.jpg" class="img-fluid" alt="Doctor Felipe Hernandez">
+                            </div>
+                            <h3>Dr. Felipe Hernandez</h3>
+                            <p class="lead">Especialista en Neurología</p>
+                            <button class="btn bg-primary text-white" data-bs-toggle="modal" data-bs-target="#chatModal"
+                                onclick="openChat('Dr. Felipe Hernandez')">Iniciar Chat</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <div class="img-area mb-4">
+                                <img src="img/Doctor_3.jpg" class="img-fluid" alt="Doctor Leandro Gutierrez">
+                            </div>
+                            <h3>Dr. Leandro Gutierrez</h3>
+                            <p class="lead">Especialista en Pediatría</p>
+                            <button class="btn bg-primary text-white" data-bs-toggle="modal" data-bs-target="#chatModal"
+                                onclick="openChat('Dr. Leandro Gutierrez')">Iniciar Chat</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!--Seccion del Equipo de Medivan -->
+    <section id="Equipo" class="team section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-black pb-5">
+                        <h2 class="fw-bold">
+                            EQUIPO
+                        </h2>
+                        <P>
+                            Nosotros un equipo de trabajo pequeño que quiere llevarte un servicio de calidad
+                            <br> y sobre todo una experiencia agradable.
+                        </P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white ">
+                            <img src="img/foto de perfil en blanco.png" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">
+                                Emilio <br>Varguez
+                            </h3>
+                            <p class="card-text ">
+                                Hola mi nombre Emilio Varguez y estoy para ayudarte en lo que necesites.
+                            </p>
+                            <p class="socials">
+                                <i class="bi bi-twitter text-white mx-1"> </i>
+                                <i class="bi bi-facebook text-white mx-1"> </i>
+                                <i class="bi bi-linkedin text-white mx-1"> </i>
+                                <i class="bi bi-instagram text-white mx-1"> </i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white ">
+                            <img src="img/foto de perfil en blanco.png" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">
+                                Emilio <br>Campos
+                            </h3>
+                            <p class="card-text ">
+                                Hola mi nombre Emilio Campos y estoy para ayudarte en lo que necesites.
+                            </p>
+                            <p class="socials">
+                                <i class="bi bi-twitter text-white mx-1"> </i>
+                                <i class="bi bi-facebook text-white mx-1"> </i>
+                                <i class="bi bi-linkedin text-white mx-1"> </i>
+                                <i class="bi bi-instagram text-white mx-1"> </i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white ">
+                            <img src="img/foto de perfil en blanco.png" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">
+                                Gabriel <br>Kuuk
+
+                            </h3>
+                            <p class="card-text ">
+
+                                Hola mi nombre Gabriel Kuuk y estoy para ayudarte en lo que necesites.
+                            </p>
+                            <p class="socials">
+                                <i class="bi bi-twitter text-white mx-1"> </i>
+                                <i class="bi bi-facebook text-white mx-1"> </i>
+                                <i class="bi bi-linkedin text-white mx-1"> </i>
+                                <i class="bi bi-instagram text-white mx-1"> </i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white ">
+                            <img src="img/foto de perfil en blanco.png" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">
+                                Victor <br>Becerra
+                            </h3>
+                            <p class="card-text ">
+                                Hola mi nombre Victor Becerra y estoy para ayudarte en lo que necesites.
+                            </p>
+                            <p class="socials">
+                                <i class="bi bi-twitter text-white mx-1"> </i>
+                                <i class="bi bi-facebook text-white mx-1"> </i>
+                                <i class="bi bi-linkedin text-white mx-1"> </i>
+                                <i class="bi bi-instagram text-white mx-1"> </i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white ">
+                            <img src="img/foto de perfil en blanco.png" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">
+                                Carlos <br>Canto
+                            </h3>
+                            <p class="card-text ">
+                                Hola mi nombre Carlos Canto y estoy para ayudarte en lo que necesites.
+                            </p>
+                            <p class="socials">
+                                <i class="bi bi-twitter text-white mx-1"> </i>
+                                <i class="bi bi-facebook text-white mx-1"> </i>
+                                <i class="bi bi-linkedin text-white mx-1"> </i>
+                                <i class="bi bi-instagram text-white mx-1"> </i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white ">
+                            <img src="img/foto de perfil en blanco.png" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">
+                                Kevin <br>Vicente
+                            </h3>
+                            <p class="card-text ">
+                                Hola mi nombre Kevin Vicente y estoy para ayudarte en lo que necesites.
+                            </p>
+                            <p class="socials">
+                                <i class="bi bi-twitter text-white mx-1"> </i>
+                                <i class="bi bi-facebook text-white mx-1"> </i>
+                                <i class="bi bi-linkedin text-white mx-1"> </i>
+                                <i class="bi bi-instagram text-white mx-1"> </i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="img/foto de perfil en blanco.png" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">
+                                Abraham <br>Gonzales
+                            </h3>
+                            <p class="card-text ">
+                                Hola mi nombre Abraham Gonzales y estoy para ayudarte en lo que necesites.
+                            </p>
+                            <p class="socials">
+                                <i class="bi bi-twitter text-white mx-1"> </i>
+                                <i class="bi bi-facebook text-white mx-1"> </i>
+                                <i class="bi bi-linkedin text-white mx-1"> </i>
+                                <i class="bi bi-instagram text-white mx-1"> </i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+    </sectiOn>
+    <br>
+    <!--Seccion del contacto del MediVan-->
+    <section id="Contacto" class="contact section-padding">
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-black pb-5">
+                        <h2 class="fw-bold">
+                            CONTACTO
+                        </h2>
+                        <P>
+                            Aqui puedes contactarnos y resolver tus dudas para una mejor experiencia
+                        </P>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row m-0">
+                <div class="col-md-12 p-0 pt-4 pb-4">
+                    <form action="#" class="bg-dark p-4 m-auto">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Nombre">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Correo">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <textarea class="form-control" placeholder="Mensaje" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-lg btn-block mt-3">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+        // Agregar funcionalidad al formulario
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault(); // Evitar recargar la página
+    
+            // Capturar los datos del formulario
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+    
+            if (!name || !email || !message) {
+                alert("Por favor, completa todos los campos.");
+                return;
+            }
+    
+            // Guardar los datos en localStorage (simulación de almacenamiento)
+            const contactMessages = JSON.parse(localStorage.getItem('contactMessages')) || [];
+            contactMessages.push({ name, email, message });
+            localStorage.setItem('contactMessages', JSON.stringify(contactMessages));
+    
+            // Confirmación de envío
+            alert("¡Gracias por contactarnos! Hemos recibido tu mensaje.");
+    
+            // Limpiar el formulario
+            document.getElementById('contactForm').reset();
+        });
+    </script>
+
+    <footer class="bg-dark p-2 text-center ">
+        <div class="container">
+            <p class="text-white">
+                <i class="bi bi-c-circle"></i>
+                MediVan
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- Modal de Registro e Inicio de Sesión -->
+    <div class="modal fade" id="registroModal" tabindex="-1" aria-labelledby="registroModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registroModalLabel">Registro / Inicio de Sesión</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav nav-tabs" id="registroTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="crear-cuenta-tab" data-bs-toggle="tab"
+                                data-bs-target="#crear-cuenta" type="button" role="tab" aria-controls="crear-cuenta"
+                                aria-selected="true">Crear Cuenta</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="iniciar-sesion-tab" data-bs-toggle="tab"
+                                data-bs-target="#iniciar-sesion" type="button" role="tab" aria-controls="iniciar-sesion"
+                                aria-selected="false">Iniciar Sesión</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="registroTabContent">
+                        <!-- Tab para Crear Cuenta -->
+                        <div class="tab-pane fade show active p-3" id="crear-cuenta" role="tabpanel"
+                            aria-labelledby="crear-cuenta-tab">
+                            <form id="registroForm">
+                                <div class="mb-3">
+                                    <label for="registroNombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="registroNombre"
+                                        placeholder="Ingresa tu nombre">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="registroEmail" class="form-label">Correo Electrónico</label>
+                                    <input type="email" class="form-control" id="registroEmail"
+                                        placeholder="Ingresa tu correo">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="registroPassword" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="registroPassword"
+                                        placeholder="Crea una contraseña">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Tipo de Cuenta</label>
+                                    <div>
+                                        <input type="radio" id="usuario" name="tipoCuenta" value="Usuario" checked>
+                                        <label for="usuario">Usuario</label>
+                                        <input type="radio" id="medico" name="tipoCuenta" value="Medico">
+                                        <label for="medico">Médico</label>
+                                    </div>
+                                </div>
+                                <!-- Formulario adicional para Médicos -->
+                                <div id="medicoForm" style="display: none;">
+                                    <div class="mb-3">
+                                        <label for="medicoEspecialidad" class="form-label">Especialidad</label>
+                                        <input type="text" class="form-control" id="medicoEspecialidad"
+                                            placeholder="Especialidad">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="medicoPais" class="form-label">País</label>
+                                        <input type="text" class="form-control" id="medicoPais" placeholder="País">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="medicoCiudad" class="form-label">Ciudad</label>
+                                        <input type="text" class="form-control" id="medicoCiudad" placeholder="Ciudad">
+                                    </div>
+                                </div>
+                                <button id="crearCuentaBtn" type="button" class="btn btn-primary btn-sm w-auto mt-3">Crear Cuenta</button>
+                            </form>
+                        </div>
+                        <!-- Tab para Iniciar Sesión -->
+                        <div class="tab-pane fade p-3" id="iniciar-sesion" role="tabpanel"
+                            aria-labelledby="iniciar-sesion-tab">
+                            <form id="inicioSesionForm">
+                                <div class="mb-3">
+                                    <label for="loginEmail" class="form-label">Correo Electrónico</label>
+                                    <input type="email" class="form-control" id="loginEmail"
+                                        placeholder="Ingresa tu correo">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="loginPassword" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="loginPassword"
+                                        placeholder="Ingresa tu contraseña">
+                                </div>
+                                <button id="iniciarSesionBtn" type="button" class="btn btn-primary btn-sm w-auto mt-3">Iniciar Sesión</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Script que contiene el chat con los doctores-->
+    <script>
+        let currentDoctor = '';
+
+        function openChat(doctorName) {
+            currentDoctor = doctorName;
+            document.getElementById('chatModalLabel').innerText = `Chat con ${doctorName}`;
+            document.getElementById('chatMessages').innerHTML = '';
+        }
+
+        function sendMessage(event) {
+            event.preventDefault();
+            const messageInput = document.getElementById('messageInput');
+            const message = messageInput.value.trim();
+
+            if (message) {
+                addMessage('Tú', message, 'user');
+
+                setTimeout(() => {
+                    addMessage(currentDoctor, "Gracias por tu mensaje. ¿En qué puedo ayudarte?", 'doctor');
+                }, 1000);
+
+                messageInput.value = '';
+            }
+        }
+
+        function addMessage(sender, text, type) {
+            const chatMessages = document.getElementById('chatMessages');
+            const messageElement = document.createElement('div');
+            messageElement.classList.add('message', type);
+
+            messageElement.innerHTML = `<div class="message-bubble"><strong>${sender}:</strong> ${text}</div>`;
+            chatMessages.appendChild(messageElement);
+
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+    </script>
+    <script src="js/formulario_medico.js"></script>
+    <script src="js/Admin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
